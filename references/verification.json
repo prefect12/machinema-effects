@@ -160,5 +160,13 @@
     "No audio",
     "Preview checks do not establish visual equivalence to references",
     "Only two public example exports tested end-to-end in this release"
-  ]
+  ],
+  "ui_check": {
+    "effect": "gold-reveal",
+    "title": "Skill特效演示",
+    "symbol": "新",
+    "camera_yaw": 10,
+    "saved_json_matches": true,
+    "playback_reached_end": true
+  }
 }
