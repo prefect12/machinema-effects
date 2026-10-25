@@ -1,0 +1,50 @@
+{
+  "duration": 2.2666666666666666,
+  "fps": 30,
+  "status": "component_fidelity_test_not_approved",
+  "reference": {
+    "video": "BV1xU5bzVEjV",
+    "event": "E055",
+    "sourceStart": 1192,
+    "sourceEnd": 1194.2666666666667,
+    "scope": "仅重建胶囊与药片的三维形体、透明受光、旋转和景深；排除前景人物、普通文字和后续金额卡。原片前半段主体被遮挡，不臆称隐藏区域一致。"
+  },
+  "requested_scope": {
+    "tier": "advanced",
+    "component": "透明壳体、折射、内部结构、空间旋转和基于深度的虚化"
+  },
+  "shellColor": "#36d8cd",
+  "attenuationColor": "#00b9b3",
+  "attenuationDistance": 44,
+  "ior": 1.46,
+  "roughness": 0.006,
+  "thickness": 3.2,
+  "focus": 1303.6766,
+  "aperture": 0.08,
+  "hero": {
+    "radius": 40,
+    "length": 174,
+    "wall": 1.1
+  },
+  "seed": 1912,
+  "limitations": [
+    "摄影机和被遮挡部分由可见轮廓拟合，不能从原片确定真实参数",
+    "原片高光、条纹、折射失真和焦平面仍需逐帧对齐",
+    "仅组件研究，无人物、旁白、音效或正式美联储内容"
+  ],
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  }
+}

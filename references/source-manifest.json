@@ -1,0 +1,705 @@
+{
+  "note": "Input hashes before portability patches; no reference video/audio included.",
+  "effects": [
+    "seat-rotation",
+    "table-row-depth",
+    "table-row-perspective",
+    "paper-chart",
+    "document-focus",
+    "coin-reveal",
+    "capsule-material",
+    "house-bubbles",
+    "mechanical-title",
+    "liquid-oil",
+    "iridescent-title",
+    "gold-reveal",
+    "frost-title",
+    "particle-dissolve",
+    "map-routes",
+    "cycle-vortex"
+  ],
+  "files": [
+    {
+      "file": "assets/effects/seat-rotation/scene3d-schema.mjs",
+      "source_sha256": "4e2e07cb3b20847a348026c51d8ed69d819cf22427c188322fe311ee1a2a3874"
+    },
+    {
+      "file": "assets/effects/seat-rotation/scene3d.js",
+      "source_sha256": "ec058af9d7cfe03619ef9cba87bc9936a6481b8264b3ae7f88520ad7659679c2"
+    },
+    {
+      "file": "assets/effects/seat-rotation/index.html",
+      "source_sha256": "59ce598832dacd260cc145f12ec4ddc1bdf4c05c44366e36cf5811df1a4eca49"
+    },
+    {
+      "file": "assets/effects/seat-rotation/seats.js",
+      "source_sha256": "2f22de5a19ebe2d711eaec8446c0c82a81a4c830056a7efdc46f17088b3ab585"
+    },
+    {
+      "file": "assets/effects/seat-rotation/scene3d-config.json",
+      "source_sha256": "64b6e304ae81d11bfd89ee44d1c4213a0d00f10b293f315d13cf36461c2aad1a"
+    },
+    {
+      "file": "assets/effects/seat-rotation/editor.css",
+      "source_sha256": "479c84d27fd817305d5e844a826f887e95fd333db5eb4d075b1b7588bcf9b48f"
+    },
+    {
+      "file": "assets/effects/seat-rotation/config.json",
+      "source_sha256": "851a9d968bd6ede9988d57bbaff235bae0fbdad4624b882dd290d68b97614a7c"
+    },
+    {
+      "file": "assets/effects/seat-rotation/editor.html",
+      "source_sha256": "539461691a649ccb95b39f194f6da7fb093137e1eee512fc89f8bf150770c273"
+    },
+    {
+      "file": "assets/effects/seat-rotation/projection.js",
+      "source_sha256": "5769c67c69e79c5f0e6685b2533854f966cb5ad4d4e258e7229bc59bc90be81a"
+    },
+    {
+      "file": "assets/effects/seat-rotation/editor.js",
+      "source_sha256": "8be6887bf6e36c8f4c7e9986f6f319334cee61a8a4460bec77dc50016e16a399"
+    },
+    {
+      "file": "assets/effects/seat-rotation/scene3d-render.js",
+      "source_sha256": "8429ebbb0873111f3832b8f95d3c73fa9ff33c3303a79cf67e6005f37d78db42"
+    },
+    {
+      "file": "assets/effects/seat-rotation/render3d.html",
+      "source_sha256": "56a5a1bbb062ec0343601ae6ada15b4d8636a231cab1d6e3962acf789de5ebe7"
+    },
+    {
+      "file": "assets/effects/seat-rotation/scene3d-full-config.json",
+      "source_sha256": "b286de8789f9c0a535e224221bf55f6bb140bd26be6347af59e102b7fac70a7c"
+    },
+    {
+      "file": "assets/effects/seat-rotation/render-edit.mjs",
+      "source_sha256": "ae9d15664084c16e90eb86c7a10b1a156965d973827a2e17499622d871f1ccbd"
+    },
+    {
+      "file": "assets/effects/seat-rotation/presets/commerce.json",
+      "source_sha256": "e1adef8f1c8b759914e872f24d250e8114dd53a2436c385bb0c82143d9bd854b"
+    },
+    {
+      "file": "assets/effects/seat-rotation/presets/astronomy.json",
+      "source_sha256": "4c62d89f81da658673474692e08ccefd0c4a65a2c535827dc426f652283465ac"
+    },
+    {
+      "file": "assets/effects/seat-rotation/presets/index.json",
+      "source_sha256": "e47ecd32c7ecb0c7458acc46922eff19d116353b596923c080bebeabd74082d6"
+    },
+    {
+      "file": "assets/effects/seat-rotation/presets/team.json",
+      "source_sha256": "e37769403cfb5559578c9fd6da751d86c081beff3eab68a0f3f10103b04483bc"
+    },
+    {
+      "file": "assets/effects/seat-rotation/assets/xiaohei-costumes-v01.json",
+      "source_sha256": "9bd7f48e356ca67c5ef550307f670cbda7218f7618bd2fcb240dfb132fdda06f"
+    },
+    {
+      "file": "assets/effects/seat-rotation/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/seat-rotation/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/seat-rotation/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/seat-rotation/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/seat-rotation/vendor/SVGLoader.js",
+      "source_sha256": "ed02a34bea2f8385bd5ea70cf0bf31080008fe1b7efba085951003b7c870ca73"
+    },
+    {
+      "file": "assets/effects/table-row-depth/index.html",
+      "source_sha256": "f553f51d4f44e2bc5bd28542809347d009448008860a4f22d67894d17aeb207a"
+    },
+    {
+      "file": "assets/effects/table-row-depth/config.json",
+      "source_sha256": "4afaef7b6def8abc3eea5c4478ce18145b4f42a933bfbe1d69d3c4edb12b562d"
+    },
+    {
+      "file": "assets/effects/table-row-depth/table.js",
+      "source_sha256": "4e37487d17b5c2e0f743c5bd9bfbf0306768038601c3d959252ddb0fe1bf17b2"
+    },
+    {
+      "file": "assets/effects/table-row-depth/table-camera.mjs",
+      "source_sha256": "e426f99a0fce6b2a2a1d336a6808b7946e911d10ed2156e6cfa23ae4705e9104"
+    },
+    {
+      "file": "assets/effects/table-row-depth/examples/education.json",
+      "source_sha256": "c3fc157a41063e6da5e3e356318cdb1964e9fe6267e114bb9a8d464772957005"
+    },
+    {
+      "file": "assets/effects/table-row-depth/examples/commerce.json",
+      "source_sha256": "5ffb75f6c87e13785517e03cf3e5b7ce77df5c9d8399668730c8057d680ecb68"
+    },
+    {
+      "file": "assets/effects/table-row-depth/examples/software.json",
+      "source_sha256": "f824864a10029815eb1cce79f30b56df60b14104ace8e0c201abb2d1ea8c6e76"
+    },
+    {
+      "file": "assets/effects/table-row-depth/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/table-row-depth/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/table-row-depth/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/table-row-depth/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/table-row-perspective/index.html",
+      "source_sha256": "f553f51d4f44e2bc5bd28542809347d009448008860a4f22d67894d17aeb207a"
+    },
+    {
+      "file": "assets/effects/table-row-perspective/config.json",
+      "source_sha256": "ad31292ce952a8f2354586e38b6a0269804b7c0ece0904318b575bab2ee9d451"
+    },
+    {
+      "file": "assets/effects/table-row-perspective/table.js",
+      "source_sha256": "60556f32c0644d418cafdb80645408b0817fb6302d5f28bea11ecd5e6ae60abf"
+    },
+    {
+      "file": "assets/effects/table-row-perspective/table-camera.mjs",
+      "source_sha256": "e426f99a0fce6b2a2a1d336a6808b7946e911d10ed2156e6cfa23ae4705e9104"
+    },
+    {
+      "file": "assets/effects/table-row-perspective/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/table-row-perspective/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/table-row-perspective/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/table-row-perspective/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/paper-chart/index.html",
+      "source_sha256": "83635e227d93960a38073c9aaaaf0b941f129b1b2d5f68ca66f77083df202800"
+    },
+    {
+      "file": "assets/effects/paper-chart/paper.js",
+      "source_sha256": "9a0104affe39728f88fc288b35bef682835b75bf69e348ce3b6fe1b8e3b181d5"
+    },
+    {
+      "file": "assets/effects/paper-chart/config.json",
+      "source_sha256": "3dbfdb332117e38e431208d67a40ea912a5a24b895788f7df51b04f74f4d21e0"
+    },
+    {
+      "file": "assets/effects/paper-chart/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/paper-chart/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/paper-chart/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/paper-chart/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/paper-chart/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/document-focus/index.html",
+      "source_sha256": "16dca60358339328582a516b2acdf687e961eaae46e276173cc010c3df89d144"
+    },
+    {
+      "file": "assets/effects/document-focus/config.json",
+      "source_sha256": "7e718ff6d6aa555a675171248d7c80b03cb3835265109ad1dd58832490e9c058"
+    },
+    {
+      "file": "assets/effects/document-focus/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/document-focus/document.js",
+      "source_sha256": "66293a272f4f24294e57ad36db1836ae3f6dedf81a7c23727e749c1f5e053817"
+    },
+    {
+      "file": "assets/effects/document-focus/assets/document.json",
+      "source_sha256": "49473c7233d442b1bf59bc04577382f967541f81cb8238852f518a3b3f9cab46"
+    },
+    {
+      "file": "assets/effects/document-focus/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/document-focus/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/document-focus/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/document-focus/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/coin-reveal/index.html",
+      "source_sha256": "8460a3102b4fe0d78821a2759b81aa4f246438b817ae322b29523534e6ab638f"
+    },
+    {
+      "file": "assets/effects/coin-reveal/config.json",
+      "source_sha256": "618508b8385ffb67fa801148e9a2a3f88c4511e072ac5ae85fd69e3fbe459444"
+    },
+    {
+      "file": "assets/effects/coin-reveal/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/coin-reveal/coins.js",
+      "source_sha256": "905919a63934e157d8f3e61259d3d145a76142491e843575388dcac6f2fc14d4"
+    },
+    {
+      "file": "assets/effects/coin-reveal/prepare.py",
+      "source_sha256": "ce17e64c88f488a0c55c0cf340d829e911ac29a1979adfaba95bc5fc7f96dcf0"
+    },
+    {
+      "file": "assets/effects/coin-reveal/assets/generation-provenance.json",
+      "source_sha256": "d0dc58576caa67409b2d796a9549c0e9b7f08a0f4f988fcc18116203ba292b34"
+    },
+    {
+      "file": "assets/effects/coin-reveal/assets/glyphs.json",
+      "source_sha256": "b21b698044291333df8b73f4edb608ad51adb28584a0b65aca34cfe90a91c7c3"
+    },
+    {
+      "file": "assets/effects/coin-reveal/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/coin-reveal/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/coin-reveal/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/coin-reveal/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/coin-reveal/vendor/SVGLoader.js",
+      "source_sha256": "ed02a34bea2f8385bd5ea70cf0bf31080008fe1b7efba085951003b7c870ca73"
+    },
+    {
+      "file": "assets/effects/capsule-material/index.html",
+      "source_sha256": "a9ff40886c01d5cdd9f685b5e789ce75c504bc56497f41cb93f436b3a9afcc4c"
+    },
+    {
+      "file": "assets/effects/capsule-material/config.json",
+      "source_sha256": "4aa3481f9050fc3dcd66f14f466d416d59eec093aed935c78ffe582f97257a69"
+    },
+    {
+      "file": "assets/effects/capsule-material/capsules.js",
+      "source_sha256": "cb92f59cee706c112b0a7dc6aea0d913618c90f80ea297d09f08e888e24705e1"
+    },
+    {
+      "file": "assets/effects/capsule-material/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/capsule-material/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/capsule-material/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/capsule-material/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/house-bubbles/index.html",
+      "source_sha256": "d66791401ac10b323fd9ac214aed65f067f53acac79534f0fb1348037df055bb"
+    },
+    {
+      "file": "assets/effects/house-bubbles/bubbles.js",
+      "source_sha256": "b9b8f6a3ebe3b77ab9aae8a596678db55cab2e58f6f8ce7aa381943793db3594"
+    },
+    {
+      "file": "assets/effects/house-bubbles/config.json",
+      "source_sha256": "7783fa6e4a9d28170ccb18f01107964d97ae7e949632d0ca7796302f31fda6a3"
+    },
+    {
+      "file": "assets/effects/house-bubbles/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/house-bubbles/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/house-bubbles/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/house-bubbles/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/house-bubbles/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/house-bubbles/vendor/SVGLoader.js",
+      "source_sha256": "ed02a34bea2f8385bd5ea70cf0bf31080008fe1b7efba085951003b7c870ca73"
+    },
+    {
+      "file": "assets/effects/mechanical-title/mechanical.js",
+      "source_sha256": "0fd16c70a865dbfc50dbe9101674e131c2a4ac3184919107c23b9c411c06bde0"
+    },
+    {
+      "file": "assets/effects/mechanical-title/index.html",
+      "source_sha256": "f9a368de248acfb5294ca1743497377ea3a130eeb1aca44f62b6005efcb7bb4d"
+    },
+    {
+      "file": "assets/effects/mechanical-title/config.json",
+      "source_sha256": "758205a4f747dc0da803efca08bcfb40eb2c4e730bc106427cc904aa3d335765"
+    },
+    {
+      "file": "assets/effects/mechanical-title/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/mechanical-title/prepare.py",
+      "source_sha256": "c115ab389882f23d6dc649fce09d139621dafdc37dc622617c3be5c5db684d29"
+    },
+    {
+      "file": "assets/effects/mechanical-title/assets/glyphs.json",
+      "source_sha256": "bbea07587fb489690061025263a2e127f55ccc2f7e88c679bf325442f031f843"
+    },
+    {
+      "file": "assets/effects/mechanical-title/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/mechanical-title/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/mechanical-title/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/mechanical-title/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/mechanical-title/vendor/SVGLoader.js",
+      "source_sha256": "ed02a34bea2f8385bd5ea70cf0bf31080008fe1b7efba085951003b7c870ca73"
+    },
+    {
+      "file": "assets/effects/liquid-oil/index.html",
+      "source_sha256": "6c4a35c9fe0af2aff76524f09c0813863267e143093c92c8a8c99c79590de515"
+    },
+    {
+      "file": "assets/effects/liquid-oil/config.json",
+      "source_sha256": "bc090762f2a8fd4ca53df873d7ef8a382474ba3a5ec064bb363db20ee83cab3f"
+    },
+    {
+      "file": "assets/effects/liquid-oil/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/liquid-oil/oil.js",
+      "source_sha256": "d0f0e4a78c6d5f93c4af2fdde20ce4a18c24464bb14276f6ab84b5c7941f5c30"
+    },
+    {
+      "file": "assets/effects/liquid-oil/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/liquid-oil/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/liquid-oil/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/iridescent-title/index.html",
+      "source_sha256": "d8ff5215183c6680c62eb0c803eff38c80e13d91f8e3dd933f8d07cbf84ddd9b"
+    },
+    {
+      "file": "assets/effects/iridescent-title/config.json",
+      "source_sha256": "9f72bbb01349f739879d05d6aa426ad9f8401a1f22c98a68a4353c2e976a3d4a"
+    },
+    {
+      "file": "assets/effects/iridescent-title/iridescent.js",
+      "source_sha256": "5270aa33732fc145af7f0125e6b786c6ab4c02597a2e399dcac0a0ceb81e1c42"
+    },
+    {
+      "file": "assets/effects/iridescent-title/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/iridescent-title/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/iridescent-title/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/iridescent-title/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/iridescent-title/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/iridescent-title/vendor/SVGLoader.js",
+      "source_sha256": "ed02a34bea2f8385bd5ea70cf0bf31080008fe1b7efba085951003b7c870ca73"
+    },
+    {
+      "file": "assets/effects/gold-reveal/index.html",
+      "source_sha256": "039304c83a5f0d4bfdfebc46a42ae44a078663d28e8173c3098d6c3015b5f176"
+    },
+    {
+      "file": "assets/effects/gold-reveal/config.json",
+      "source_sha256": "7602031a23d0d10d0849dafbcdb0f2ba9a4df201618cfe2677345a198bb2a138"
+    },
+    {
+      "file": "assets/effects/gold-reveal/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/gold-reveal/prepare.py",
+      "source_sha256": "312b7c9b5355641383156b381a74edf9821e1f661d2635f04ee61707b9bcb3bb"
+    },
+    {
+      "file": "assets/effects/gold-reveal/gold.js",
+      "source_sha256": "7070f6a6b8a9554c89355d3fea9548a52dad084381f9e8486fdd9ac0e3cefaac"
+    },
+    {
+      "file": "assets/effects/gold-reveal/assets/glyphs.json",
+      "source_sha256": "fb85b577a1bed9801e9ec98b5457cf8444c4de6ee39714ccc102a3d361993772"
+    },
+    {
+      "file": "assets/effects/gold-reveal/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/gold-reveal/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/gold-reveal/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/gold-reveal/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/gold-reveal/vendor/SVGLoader.js",
+      "source_sha256": "ed02a34bea2f8385bd5ea70cf0bf31080008fe1b7efba085951003b7c870ca73"
+    },
+    {
+      "file": "assets/effects/frost-title/index.html",
+      "source_sha256": "621b014926ded0e5c4f1a168f75160470790f84dbb3b5fffc2f99dbf21305ac9"
+    },
+    {
+      "file": "assets/effects/frost-title/frost.js",
+      "source_sha256": "740a1e68e0e9604e18e5773b9d7f1b0f1940524c2cab805a28e9141a4c62888c"
+    },
+    {
+      "file": "assets/effects/frost-title/config.json",
+      "source_sha256": "1e841f9562af1b02cf50a76513f36a3f99bdd91d33b727041ab740103ccee9a5"
+    },
+    {
+      "file": "assets/effects/frost-title/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/frost-title/assets/generation-prompt.txt",
+      "source_sha256": "5eb0b2950b113f4d88e3d5e3f10d9dd9a3def5c106583e107e10bdd8bd01d4cf"
+    },
+    {
+      "file": "assets/effects/frost-title/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/frost-title/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/frost-title/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/frost-title/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/particle-dissolve/index.html",
+      "source_sha256": "1d597f4a14ba233f0cc67147b2ae4e32171cb9da823e265c6c65998a0996e80b"
+    },
+    {
+      "file": "assets/effects/particle-dissolve/config.json",
+      "source_sha256": "a25e79ae2ae70bd29d6d51b3c45eb213f9fa47b02d1bb6bb12aec64af4a34315"
+    },
+    {
+      "file": "assets/effects/particle-dissolve/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/particle-dissolve/dissolve.js",
+      "source_sha256": "7c3e28c78bb310cf6abeb69fb2fc3dcb31070625860c8a9e0591b2293f049480"
+    },
+    {
+      "file": "assets/effects/particle-dissolve/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/particle-dissolve/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/particle-dissolve/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/particle-dissolve/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/particle-dissolve/vendor/SVGLoader.js",
+      "source_sha256": "ed02a34bea2f8385bd5ea70cf0bf31080008fe1b7efba085951003b7c870ca73"
+    },
+    {
+      "file": "assets/effects/map-routes/index.html",
+      "source_sha256": "c2c7a873003f72ea4d04998da178ede5cf0b7acd57f969c5f5dddb1434d15650"
+    },
+    {
+      "file": "assets/effects/map-routes/config.json",
+      "source_sha256": "49a21ad6e8e708e4fe29636ae02f15642c46126c3feda5a496921166ebf86436"
+    },
+    {
+      "file": "assets/effects/map-routes/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/map-routes/map.js",
+      "source_sha256": "30ae61a1694565dedea695c3aea62628655e154d684f7b59bac2801c94902f78"
+    },
+    {
+      "file": "assets/effects/map-routes/assets/world-atlas-LICENSE",
+      "source_sha256": "8048290dfdb6e83fbed17e8985c8cfc4ce9da9b842642f3d3e497280790cfa31"
+    },
+    {
+      "file": "assets/effects/map-routes/assets/countries-10m.json",
+      "source_sha256": "f51e0e330dd1ebe405542799cfe7f0b9a609b54704eb67bed7d32cd5a53a4ff2"
+    },
+    {
+      "file": "assets/effects/map-routes/assets/countries.json",
+      "source_sha256": "d3aa99c9f08062486e2418af5a81f553c0fe1678cc28e149a1c994f750678e4e"
+    },
+    {
+      "file": "assets/effects/map-routes/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/map-routes/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/map-routes/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/map-routes/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "file": "assets/effects/cycle-vortex/index.html",
+      "source_sha256": "becc2c63c2e49f63b59fc9a7ba35a5059b9c02de2145d558b53fcce0f81c176e"
+    },
+    {
+      "file": "assets/effects/cycle-vortex/config.json",
+      "source_sha256": "4ddc66d47d49e4c237bbbb99d747893fdcba19c19d0e1a35a3bc16b5ac6dde5d"
+    },
+    {
+      "file": "assets/effects/cycle-vortex/cycle.js",
+      "source_sha256": "3656e241f57c592821686af229e6595a1722d129ee03c01bfb4b0c510083f837"
+    },
+    {
+      "file": "assets/effects/cycle-vortex/effect-camera.js",
+      "source_sha256": "a4779d9be1469e24c6015901ef8baadc1056a504384c58b1e29cedab4ca84f1e"
+    },
+    {
+      "file": "assets/effects/cycle-vortex/vendor/mv.js",
+      "source_sha256": "5d5d2ee7c44d309984101eb844bf670521f1edfe245adcac67bad648c82805b3"
+    },
+    {
+      "file": "assets/effects/cycle-vortex/vendor/three.module.js",
+      "source_sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "file": "assets/effects/cycle-vortex/vendor/THREE-LICENSE.txt",
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "assets/effects/cycle-vortex/vendor/three.core.js",
+      "source_sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    }
+  ],
+  "neutral_demo_assets": [
+    "assets/effects/cycle-vortex/assets/studio.svg",
+    "assets/effects/cycle-vortex/assets/presenter.svg",
+    "assets/effects/table-row-perspective/assets/studio.svg",
+    "assets/effects/table-row-perspective/assets/presenter.svg",
+    "assets/effects/paper-chart/assets/xiaohei-expressions.svg",
+    "assets/effects/seat-rotation/assets/commerce-atlas-v01.svg",
+    "assets/effects/seat-rotation/assets/xiaohei-costumes-v01.svg",
+    "assets/effects/seat-rotation/assets/studio.svg",
+    "assets/effects/seat-rotation/assets/expressions.svg",
+    "assets/effects/seat-rotation/assets/astronomy-atlas-v01.svg",
+    "assets/effects/seat-rotation/assets/presenter.svg",
+    "assets/effects/seat-rotation/assets/architecture.svg",
+    "assets/effects/document-focus/assets/city.svg",
+    "assets/effects/document-focus/assets/studio.svg",
+    "assets/effects/document-focus/assets/presenter.svg",
+    "assets/effects/iridescent-title/assets/xiaohei-expressions.svg",
+    "assets/effects/coin-reveal/assets/studio.svg",
+    "assets/effects/coin-reveal/assets/pointing.svg",
+    "assets/effects/gold-reveal/assets/xiaohei-expressions.svg",
+    "assets/effects/particle-dissolve/assets/studio.svg",
+    "assets/effects/particle-dissolve/assets/presenter.svg",
+    "assets/effects/particle-dissolve/assets/architecture.svg",
+    "assets/effects/map-routes/assets/studio.svg",
+    "assets/effects/map-routes/assets/presenter.svg",
+    "assets/effects/table-row-depth/assets/studio.svg",
+    "assets/effects/table-row-depth/assets/presenter.svg",
+    "assets/effects/frost-title/assets/city.svg",
+    "assets/effects/frost-title/assets/presenter.svg"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "duration": 2.533333333333333,
+  "reference": {
+    "video": "BV1bb421H7VF",
+    "sourceStart": 1728.5,
+    "sourceEnd": 1731.0333333333333,
+    "event": "E099",
+    "nextSceneCutFrame": 76,
+    "scope": "谜底揭晓窗口至原片下一场景硬切之前；非整段金牌入场"
+  },
+  "title": "新品发布",
+  "english": "REVEAL THE ANSWER",
+  "symbol": "新",
+  "caption": "演示标题 · 可编辑字形",
+  "timing": {
+    "answerIn": 0.567,
+    "answerFull": 1,
+    "hostOutStart": 0.667,
+    "hostOutEnd": 0.967
+  },
+  "status": "fidelity_test_not_approved",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  }
+}

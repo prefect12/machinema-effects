@@ -1,0 +1,53 @@
+{
+  "duration": 4,
+  "reference": {
+    "video": "BV1uC4y1q79G",
+    "event": "E022",
+    "sourceStart": 276,
+    "sourceEnd": 280
+  },
+  "title": "小黑制作组",
+  "english": "FIXED AND ROTATING ROLES",
+  "lowerTitle": "镜头候选库",
+  "lowerEnglish": "SCENE LIBRARY",
+  "caption": "席位短暂空出，交接沿两条路径同时进行",
+  "rotations": [
+    {
+      "slot": 1,
+      "start": 0.167,
+      "arrival": 0.467,
+      "from": 5,
+      "to": 7
+    },
+    {
+      "slot": 3,
+      "start": 1.033,
+      "arrival": 1.267,
+      "from": 2,
+      "to": 9
+    },
+    {
+      "slot": 1,
+      "start": 1.867,
+      "arrival": 2.133,
+      "from": 4,
+      "to": 10
+    },
+    {
+      "slot": 2,
+      "start": 2.8,
+      "arrival": 3.067,
+      "from": 8,
+      "to": 11
+    },
+    {
+      "slot": 4,
+      "start": 3.533,
+      "arrival": 3.9,
+      "from": 3,
+      "to": 6
+    }
+  ],
+  "status": "fidelity_test_not_approved",
+  "note": "保留参考窗口的占位与交接顺序，角色和银行组名替换为制作流程；不是2026年FOMC人员事实。"
+}

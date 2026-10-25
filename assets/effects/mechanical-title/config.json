@@ -1,0 +1,31 @@
+{
+  "duration": 2,
+  "fps": 30,
+  "reference": {
+    "video": "BV1xU5bzVEjV",
+    "event": "E058",
+    "sourceStart": 1208.6666666666667,
+    "sourceEnd": 1210.6666666666667
+  },
+  "status": "fidelity_test_not_approved",
+  "title": "机械感",
+  "subtitle": "Mechanical Motion",
+  "focusIn": 0.1666666667,
+  "seed": 68371,
+  "data_note": "独立程序重建的机械零件；文字替换为特效教学，不是手表品牌、工业规格或真实机械传动模拟。",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  }
+}

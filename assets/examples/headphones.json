@@ -1,0 +1,58 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "status": "fidelity_test_not_approved",
+  "seed": 7193,
+  "data_note": "动作研究的示例参数，不是生产统计或经济数据",
+  "headers": [
+    "耳机款式",
+    "价格",
+    "续航"
+  ],
+  "units": [
+    "",
+    "（元）",
+    "（小时）"
+  ],
+  "rows": [
+    {
+      "label": "A款",
+      "english": "DEMO",
+      "value": "399",
+      "extra": "30"
+    },
+    {
+      "label": "B款",
+      "english": "DEMO",
+      "value": "599",
+      "extra": "45"
+    },
+    {
+      "label": "C款",
+      "english": "DEMO",
+      "value": "799",
+      "extra": "60"
+    }
+  ],
+  "variant": "ireland",
+  "duration": 5.433333333333334,
+  "reference": {
+    "video": "BV1xU5bzVEjV",
+    "event": "E057",
+    "sourceStart": 1203.2333333333,
+    "sourceEnd": 1208.6666666667
+  },
+  "primary_row": 1,
+  "caption": "演示数据 · 突出B款并保留比较参照",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "anchorTime": 0
+  }
+}

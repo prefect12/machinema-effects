@@ -1,0 +1,289 @@
+{
+  "schema": "xiaolin-seat-scene/1",
+  "duration": 6,
+  "camera": {
+    "yaw": 15,
+    "pitch": 8,
+    "zoom": 1.13,
+    "animate": true,
+    "endYaw": -12,
+    "endPitch": 10,
+    "endZoom": 1.13,
+    "roll": 0,
+    "endRoll": 0,
+    "panY": 0,
+    "panX": 0,
+    "sway": {
+      "period": 8,
+      "yaw": 2,
+      "pitch": 0.5,
+      "roll": 0.4,
+      "zoom": 0.01
+    }
+  },
+  "layout": {
+    "depth": 1.1
+  },
+  "motion": {
+    "arc": 1.4,
+    "travel": 1,
+    "outDuration": 0.1,
+    "inDuration": 0.1,
+    "easing": "smooth"
+  },
+  "look": {
+    "glow": 0.26,
+    "rings": true,
+    "paths": false,
+    "portraitBrightness": 1,
+    "portraitMinimum": 1,
+    "portraitScale": 1.12,
+    "portraitBackground": "#ffffff",
+    "portraitBorder": "#7499b1"
+  },
+  "text": {
+    "title": "本期主推商品",
+    "subtitle": "EDITABLE CONTENT · LIVE MOTION",
+    "lower": "商品候选库",
+    "chair": "当前主题"
+  },
+  "events": [
+    {
+      "slot": 0,
+      "start": 0.15,
+      "arrival": 0.38,
+      "from": 0,
+      "to": 3
+    },
+    {
+      "slot": 1,
+      "start": 0.6,
+      "arrival": 0.84,
+      "from": 1,
+      "to": 5
+    }
+  ],
+  "castPolicy": "cycle-costumes",
+  "content": {
+    "fixedCount": 2,
+    "seatCount": 3,
+    "columns": 4,
+    "spacing": 2.65,
+    "portraits": [
+      {
+        "label": "运动鞋",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            25,
+            136,
+            378,
+            423
+          ]
+        }
+      },
+      {
+        "label": "耳机",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            433,
+            80,
+            751,
+            440
+          ]
+        }
+      },
+      {
+        "label": "背包",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            797,
+            74,
+            1130,
+            450
+          ]
+        }
+      },
+      {
+        "label": "香水",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            1228,
+            85,
+            1471,
+            442
+          ]
+        }
+      },
+      {
+        "label": "相机",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            54,
+            595,
+            371,
+            920
+          ]
+        }
+      },
+      {
+        "label": "陶杯",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            434,
+            638,
+            781,
+            917
+          ]
+        }
+      },
+      {
+        "label": "台灯",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            819,
+            519,
+            1127,
+            934
+          ]
+        }
+      },
+      {
+        "label": "绿植",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            1162,
+            560,
+            1492,
+            927
+          ]
+        }
+      }
+    ],
+    "items": [
+      {
+        "label": "运动鞋",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            25,
+            136,
+            378,
+            423
+          ]
+        }
+      },
+      {
+        "label": "耳机",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            433,
+            80,
+            751,
+            440
+          ]
+        }
+      },
+      {
+        "label": "背包",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            797,
+            74,
+            1130,
+            450
+          ]
+        }
+      },
+      {
+        "label": "香水",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            1228,
+            85,
+            1471,
+            442
+          ]
+        }
+      },
+      {
+        "label": "相机",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            54,
+            595,
+            371,
+            920
+          ]
+        }
+      },
+      {
+        "label": "陶杯",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            434,
+            638,
+            781,
+            917
+          ]
+        }
+      },
+      {
+        "label": "台灯",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            819,
+            519,
+            1127,
+            934
+          ]
+        }
+      },
+      {
+        "label": "绿植",
+        "image": {
+          "src": "./assets/commerce-atlas-v01.svg",
+          "rect": [
+            1162,
+            560,
+            1492,
+            927
+          ]
+        }
+      }
+    ],
+    "palette": {
+      "board": "#d4c5aa",
+      "start": "#f2ead9",
+      "end": "#daceb8",
+      "lower": "#706b55",
+      "accent": "#668ba3",
+      "ringA": "#baa67f",
+      "ringB": "#c9bea9",
+      "background": "#f1ede2",
+      "text": "#473f2f",
+      "muted": "#6a6254",
+      "inset": "#fbf7ed",
+      "section": "#e7decc",
+      "border": "#b8a88b",
+      "icon": "#706245"
+    },
+    "itemMotion": {
+      "bob": 0.065
+    },
+    "chairIndex": 6
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "duration": 3.3,
+  "reference": {
+    "video": "BV1uC4y1q79G",
+    "event": "E082",
+    "sourceStart": 1150,
+    "sourceEnd": 1153.3
+  },
+  "warmTitle": "复杂特效",
+  "coldTitle": "入库",
+  "timing": {
+    "coldCut": 1.1,
+    "hostDownStart": 1.1666667,
+    "hostDownEnd": 1.8333333,
+    "frostStart": 1.2,
+    "frostFull": 2.2,
+    "fireOut": 2.05
+  },
+  "status": "fidelity_test_not_approved",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  }
+}

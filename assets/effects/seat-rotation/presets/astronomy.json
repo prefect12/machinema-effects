@@ -1,0 +1,421 @@
+{
+  "schema": "xiaolin-seat-scene/1",
+  "duration": 6,
+  "camera": {
+    "yaw": 15,
+    "pitch": 8,
+    "zoom": 1.13,
+    "animate": true,
+    "endYaw": -12,
+    "endPitch": 10,
+    "endZoom": 1.13,
+    "roll": 0,
+    "endRoll": 0,
+    "panY": 0,
+    "panX": 0,
+    "sway": {
+      "period": 8,
+      "yaw": 2,
+      "pitch": 0.5,
+      "roll": 0.4,
+      "zoom": 0.01
+    }
+  },
+  "layout": {
+    "depth": 1.1
+  },
+  "motion": {
+    "arc": 1.4,
+    "travel": 1,
+    "outDuration": 0.1,
+    "inDuration": 0.1,
+    "easing": "smooth"
+  },
+  "look": {
+    "glow": 0.26,
+    "rings": true,
+    "paths": false,
+    "portraitBrightness": 1,
+    "portraitMinimum": 1,
+    "portraitScale": 1.12,
+    "portraitBackground": "#ffffff",
+    "portraitBorder": "#7499b1"
+  },
+  "text": {
+    "title": "行星观察计划",
+    "subtitle": "EDITABLE CONTENT · LIVE MOTION",
+    "lower": "太阳系行星",
+    "chair": "当前主题"
+  },
+  "events": [
+    {
+      "slot": 0,
+      "start": 0.15,
+      "arrival": 0.38,
+      "from": 0,
+      "to": 3
+    },
+    {
+      "slot": 1,
+      "start": 0.6,
+      "arrival": 0.84,
+      "from": 1,
+      "to": 5
+    }
+  ],
+  "castPolicy": "cycle-costumes",
+  "content": {
+    "fixedCount": 2,
+    "seatCount": 3,
+    "columns": 4,
+    "spacing": 2.65,
+    "portraits": [
+      {
+        "label": "水星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            31,
+            110,
+            356,
+            438
+          ]
+        }
+      },
+      {
+        "label": "金星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            401,
+            97,
+            747,
+            446
+          ]
+        }
+      },
+      {
+        "label": "地球",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            787,
+            99,
+            1140,
+            450
+          ]
+        }
+      },
+      {
+        "label": "火星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            1179,
+            108,
+            1513,
+            443
+          ]
+        }
+      },
+      {
+        "label": "木星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            16,
+            554,
+            378,
+            922
+          ]
+        }
+      },
+      {
+        "label": "土星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            360,
+            578,
+            815,
+            896
+          ],
+          "clip": [
+            [
+              8,
+              158
+            ],
+            [
+              77,
+              84
+            ],
+            [
+              224,
+              8
+            ],
+            [
+              286,
+              7
+            ],
+            [
+              289,
+              39
+            ],
+            [
+              355,
+              39
+            ],
+            [
+              355,
+              164
+            ],
+            [
+              453,
+              161
+            ],
+            [
+              453,
+              251
+            ],
+            [
+              310,
+              312
+            ],
+            [
+              223,
+              316
+            ],
+            [
+              172,
+              285
+            ],
+            [
+              113,
+              290
+            ],
+            [
+              69,
+              255
+            ],
+            [
+              23,
+              259
+            ],
+            [
+              0,
+              221
+            ]
+          ]
+        }
+      },
+      {
+        "label": "天王星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            806,
+            580,
+            1134,
+            910
+          ]
+        }
+      },
+      {
+        "label": "海王星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            1177,
+            567,
+            1520,
+            912
+          ]
+        }
+      }
+    ],
+    "items": [
+      {
+        "label": "水星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            31,
+            110,
+            356,
+            438
+          ]
+        }
+      },
+      {
+        "label": "金星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            401,
+            97,
+            747,
+            446
+          ]
+        }
+      },
+      {
+        "label": "地球",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            787,
+            99,
+            1140,
+            450
+          ]
+        }
+      },
+      {
+        "label": "火星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            1179,
+            108,
+            1513,
+            443
+          ]
+        }
+      },
+      {
+        "label": "木星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            16,
+            554,
+            378,
+            922
+          ]
+        }
+      },
+      {
+        "label": "土星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            360,
+            578,
+            815,
+            896
+          ],
+          "clip": [
+            [
+              8,
+              158
+            ],
+            [
+              77,
+              84
+            ],
+            [
+              224,
+              8
+            ],
+            [
+              286,
+              7
+            ],
+            [
+              289,
+              39
+            ],
+            [
+              355,
+              39
+            ],
+            [
+              355,
+              164
+            ],
+            [
+              453,
+              161
+            ],
+            [
+              453,
+              251
+            ],
+            [
+              310,
+              312
+            ],
+            [
+              223,
+              316
+            ],
+            [
+              172,
+              285
+            ],
+            [
+              113,
+              290
+            ],
+            [
+              69,
+              255
+            ],
+            [
+              23,
+              259
+            ],
+            [
+              0,
+              221
+            ]
+          ]
+        }
+      },
+      {
+        "label": "天王星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            806,
+            580,
+            1134,
+            910
+          ]
+        }
+      },
+      {
+        "label": "海王星",
+        "image": {
+          "src": "./assets/astronomy-atlas-v01.svg",
+          "rect": [
+            1177,
+            567,
+            1520,
+            912
+          ]
+        }
+      }
+    ],
+    "palette": {
+      "board": "#b7bdd9",
+      "start": "#e0e6f3",
+      "end": "#c5cee7",
+      "lower": "#59698e",
+      "accent": "#7d87a8",
+      "ringA": "#8d9dbb",
+      "ringB": "#b1b8d0",
+      "background": "#e9edf5",
+      "text": "#343f5a",
+      "muted": "#5a6783",
+      "inset": "#f4f6fc",
+      "section": "#d9dff0",
+      "border": "#a0acc6",
+      "icon": "#53658b"
+    },
+    "itemMotion": {
+      "bob": 0.065
+    },
+    "chairIndex": 6
+  }
+}

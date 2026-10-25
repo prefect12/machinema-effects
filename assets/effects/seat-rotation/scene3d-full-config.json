@@ -1,0 +1,254 @@
+{
+  "schema": "xiaolin-seat-scene/1",
+  "duration": 20.766666666666666,
+  "camera": {
+    "yaw": 28,
+    "pitch": 12,
+    "zoom": 1.02,
+    "animate": true,
+    "endYaw": -12,
+    "endPitch": 8,
+    "endZoom": 1.04,
+    "roll": -1.5,
+    "endRoll": 1,
+    "panX": 0,
+    "panY": -0.03,
+    "sway": {
+      "period": 12,
+      "yaw": 4,
+      "pitch": 1.2,
+      "zoom": 0.018,
+      "roll": 0.55
+    }
+  },
+  "layout": {
+    "depth": 1.1,
+    "driftY": 0.02
+  },
+  "motion": {
+    "arc": 0.4,
+    "travel": 1,
+    "outDuration": 0.024077046548956663,
+    "inDuration": 0.004815409309791333,
+    "easing": "linear"
+  },
+  "look": {
+    "glow": 0.26,
+    "rings": true,
+    "paths": true,
+    "portraitBrightness": 1,
+    "portraitMinimum": 1,
+    "portraitScale": 1.12,
+    "portraitBackground": "#ffffff",
+    "portraitBorder": "#7499b1",
+    "palette": {
+      "board": "#a5c5d5",
+      "start": "#d8e8ee",
+      "end": "#b5d3e1",
+      "lower": "#436e84",
+      "accent": "#668ba3",
+      "ringA": "#7395a7",
+      "ringB": "#9bb2bd",
+      "background": "#e4edf0",
+      "text": "#213d50",
+      "muted": "#465f70",
+      "inset": "#f4f8fa",
+      "section": "#d5e4ea",
+      "border": "#90adbc",
+      "icon": "#355d73"
+    }
+  },
+  "text": {
+    "title": "机器马制作组",
+    "subtitle": "FIXED AND ROTATING ROLES",
+    "lower": "镜头候选库",
+    "chair": "主讲 · 机器马"
+  },
+  "events": [
+    {
+      "slot": 4,
+      "start": 0.01765650080256822,
+      "arrival": 0.033707865168539325,
+      "from": 1,
+      "to": 3
+    },
+    {
+      "slot": 1,
+      "start": 0.05778491171749599,
+      "arrival": 0.0738362760834671,
+      "from": 2,
+      "to": 5
+    },
+    {
+      "slot": 3,
+      "start": 0.09630818619582665,
+      "arrival": 0.11235955056179775,
+      "from": 3,
+      "to": 2
+    },
+    {
+      "slot": 1,
+      "start": 0.13804173354735153,
+      "arrival": 0.15409309791332262,
+      "from": 4,
+      "to": 4
+    },
+    {
+      "slot": 2,
+      "start": 0.18138041733547353,
+      "arrival": 0.19743178170144463,
+      "from": 5,
+      "to": 1
+    },
+    {
+      "slot": 4,
+      "start": 0.2231139646869984,
+      "arrival": 0.2391653290529695,
+      "from": 6,
+      "to": 2
+    },
+    {
+      "slot": 3,
+      "start": 0.26484751203852325,
+      "arrival": 0.2808988764044944,
+      "from": 7,
+      "to": 2
+    },
+    {
+      "slot": 4,
+      "start": 0.2969502407704655,
+      "arrival": 0.3130016051364366,
+      "from": 1,
+      "to": 3
+    },
+    {
+      "slot": 1,
+      "start": 0.33707865168539325,
+      "arrival": 0.35313001605136435,
+      "from": 2,
+      "to": 5
+    },
+    {
+      "slot": 3,
+      "start": 0.3756019261637239,
+      "arrival": 0.391653290529695,
+      "from": 3,
+      "to": 2
+    },
+    {
+      "slot": 1,
+      "start": 0.4173354735152488,
+      "arrival": 0.4333868378812199,
+      "from": 4,
+      "to": 4
+    },
+    {
+      "slot": 2,
+      "start": 0.4606741573033708,
+      "arrival": 0.4767255216693419,
+      "from": 5,
+      "to": 1
+    },
+    {
+      "slot": 4,
+      "start": 0.5024077046548957,
+      "arrival": 0.5184590690208668,
+      "from": 6,
+      "to": 2
+    },
+    {
+      "slot": 3,
+      "start": 0.5441412520064205,
+      "arrival": 0.5601926163723917,
+      "from": 7,
+      "to": 2
+    },
+    {
+      "slot": 4,
+      "start": 0.5890850722311396,
+      "arrival": 0.6051364365971108,
+      "from": 1,
+      "to": 3
+    },
+    {
+      "slot": 1,
+      "start": 0.6292134831460674,
+      "arrival": 0.6452648475120385,
+      "from": 2,
+      "to": 5
+    },
+    {
+      "slot": 3,
+      "start": 0.6677367576243981,
+      "arrival": 0.6837881219903692,
+      "from": 3,
+      "to": 2
+    },
+    {
+      "slot": 1,
+      "start": 0.709470304975923,
+      "arrival": 0.7255216693418941,
+      "from": 4,
+      "to": 4
+    },
+    {
+      "slot": 2,
+      "start": 0.7528089887640449,
+      "arrival": 0.7688603531300161,
+      "from": 5,
+      "to": 1
+    },
+    {
+      "slot": 4,
+      "start": 0.7945425361155698,
+      "arrival": 0.8105939004815409,
+      "from": 6,
+      "to": 2
+    },
+    {
+      "slot": 3,
+      "start": 0.8362760834670947,
+      "arrival": 0.8523274478330658,
+      "from": 7,
+      "to": 2
+    },
+    {
+      "slot": 4,
+      "start": 0.8812199036918138,
+      "arrival": 0.8972712680577849,
+      "from": 1,
+      "to": 3
+    },
+    {
+      "slot": 1,
+      "start": 0.9213483146067416,
+      "arrival": 0.9373996789727127,
+      "from": 2,
+      "to": 5
+    },
+    {
+      "slot": 3,
+      "start": 0.9598715890850722,
+      "arrival": 0.9759229534510433,
+      "from": 3,
+      "to": 2
+    }
+  ],
+  "sequence": {
+    "dimEnd": 0.01926163723916533,
+    "focusStart": 0.5024077062600317,
+    "focusEnd": 0.5232744783306585,
+    "relightStart": 0.9903691813804172,
+    "relightEnd": 0.9983948651685396
+  },
+  "reference": {
+    "video": "BV1uC4y1q79G",
+    "sourceStartFrame": 8248,
+    "sourceEndFrameExclusive": 8871,
+    "fps": 30,
+    "event": "E022",
+    "timings": "source white-body tracking with linear camera drift, visual checks",
+    "routes": "estimated from visible positions; not 1:1 accepted"
+  },
+  "castPolicy": "cycle-costumes"
+}

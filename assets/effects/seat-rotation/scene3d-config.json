@@ -1,0 +1,89 @@
+{
+  "schema": "xiaolin-seat-scene/1",
+  "duration": 4,
+  "camera": {
+    "yaw": -18,
+    "pitch": 10,
+    "zoom": 1,
+    "animate": false,
+    "endYaw": 12,
+    "endPitch": 5,
+    "endZoom": 1.08
+  },
+  "layout": {
+    "depth": 1.1
+  },
+  "motion": {
+    "arc": 1.4,
+    "travel": 1
+  },
+  "look": {
+    "glow": 0.26,
+    "rings": true,
+    "paths": true,
+    "portraitBrightness": 1,
+    "portraitMinimum": 1,
+    "portraitScale": 1.12,
+    "portraitBackground": "#ffffff",
+    "portraitBorder": "#7499b1",
+    "palette": {
+      "board": "#a5c5d5",
+      "start": "#d8e8ee",
+      "end": "#b5d3e1",
+      "lower": "#436e84",
+      "accent": "#668ba3",
+      "ringA": "#7395a7",
+      "ringB": "#9bb2bd",
+      "background": "#e4edf0",
+      "text": "#213d50",
+      "muted": "#465f70",
+      "inset": "#f4f8fa",
+      "section": "#d5e4ea",
+      "border": "#90adbc",
+      "icon": "#355d73"
+    }
+  },
+  "text": {
+    "title": "机器马制作组",
+    "subtitle": "FIXED AND ROTATING ROLES",
+    "lower": "镜头候选库",
+    "chair": "主讲 · 机器马"
+  },
+  "events": [
+    {
+      "slot": 1,
+      "start": 0.04175,
+      "arrival": 0.11675,
+      "from": 5,
+      "to": 7
+    },
+    {
+      "slot": 3,
+      "start": 0.25825,
+      "arrival": 0.31675,
+      "from": 2,
+      "to": 9
+    },
+    {
+      "slot": 1,
+      "start": 0.46675,
+      "arrival": 0.53325,
+      "from": 4,
+      "to": 10
+    },
+    {
+      "slot": 2,
+      "start": 0.7,
+      "arrival": 0.76675,
+      "from": 8,
+      "to": 11
+    },
+    {
+      "slot": 4,
+      "start": 0.88325,
+      "arrival": 0.975,
+      "from": 3,
+      "to": 6
+    }
+  ]
+}

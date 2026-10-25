@@ -1,0 +1,80 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "status": "fidelity_test_not_approved",
+  "seed": 7193,
+  "data_note": "全部数值为虚构演示数据，不是实际成绩、商品或系统测量",
+  "headers": [
+    "练习分组",
+    "平均得分",
+    "人数"
+  ],
+  "units": [
+    "",
+    "（分）",
+    "（人）"
+  ],
+  "rows": [
+    {
+      "label": "甲组",
+      "english": "演示数据",
+      "value": "92",
+      "extra": "20"
+    },
+    {
+      "label": "乙组",
+      "english": "演示数据",
+      "value": "89",
+      "extra": "20"
+    },
+    {
+      "label": "丙组",
+      "english": "演示数据",
+      "value": "86",
+      "extra": "20"
+    },
+    {
+      "label": "丁组",
+      "english": "演示数据",
+      "value": "85",
+      "extra": "20"
+    },
+    {
+      "label": "戊组",
+      "english": "演示数据",
+      "value": "83",
+      "extra": "20"
+    },
+    {
+      "label": "己组",
+      "english": "演示数据",
+      "value": "80",
+      "extra": "20"
+    },
+    {
+      "label": "庚组",
+      "english": "演示数据",
+      "value": "78",
+      "extra": "20"
+    },
+    {
+      "label": "辛组",
+      "english": "演示数据",
+      "value": "76",
+      "extra": "20"
+    }
+  ],
+  "variant": "ireland",
+  "duration": 5.433333333333334,
+  "reference": {
+    "kind": "generic_use_case",
+    "derived_effect": "table-row-depth"
+  },
+  "primary_row": 2,
+  "caption": "教学复盘：从全表中抬出需要讨论的一组",
+  "motionTiming": {
+    "start": 0.5333333,
+    "full": 0.8666667
+  }
+}

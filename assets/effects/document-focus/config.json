@@ -1,0 +1,38 @@
+{
+  "duration": 9.766666666666667,
+  "reference": {
+    "video": "BV1uC4y1q79G",
+    "event": "E024",
+    "sourceStart": 305.6333333333333,
+    "sourceEnd": 315.4
+  },
+  "title": "项目说明 · 演示文本",
+  "subtitle": "DEMO DOCUMENT",
+  "caption": "翻到目标段落，再强调重点",
+  "translation": "保留对象与数值的对应关系",
+  "number": "DEMO",
+  "timing": {
+    "labelIn": 0.1,
+    "labelFull": 0.4333333,
+    "paperIn": 0.2333333,
+    "paperFull": 0.9,
+    "focusIn": 3.1,
+    "focusFull": 3.5
+  },
+  "status": "fidelity_test_not_approved",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  }
+}

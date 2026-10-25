@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-26",
+  "platform": "macOS",
+  "preview_checks": [
+    {
+      "id": "seat-rotation",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 6
+    },
+    {
+      "id": "table-row-depth",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 5.433333333333334
+    },
+    {
+      "id": "table-row-perspective",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 7.633333333333334
+    },
+    {
+      "id": "paper-chart",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 4
+    },
+    {
+      "id": "document-focus",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 9.766666666666667
+    },
+    {
+      "id": "coin-reveal",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 8.066666666666666
+    },
+    {
+      "id": "capsule-material",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.2666666666666666
+    },
+    {
+      "id": "house-bubbles",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.533333333333333
+    },
+    {
+      "id": "mechanical-title",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 2
+    },
+    {
+      "id": "liquid-oil",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.266666666666667
+    },
+    {
+      "id": "iridescent-title",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 3
+    },
+    {
+      "id": "gold-reveal",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.533333333333333
+    },
+    {
+      "id": "frost-title",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.3
+    },
+    {
+      "id": "particle-dissolve",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.6
+    },
+    {
+      "id": "map-routes",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 11.866666666666667
+    },
+    {
+      "id": "cycle-vortex",
+      "pass": true,
+      "errors": [],
+      "width": 1920,
+      "height": 1080,
+      "duration": 14.8
+    }
+  ],
+  "full_exports": [
+    {
+      "id": "table-row-depth",
+      "custom_data": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "duration": 5.433333,
+      "decode": "pass",
+      "sha256": "0e9fc431d4a2dcfd12ab747328d8ebc32f1e5c584b947354e64ca3c3e86634b3"
+    },
+    {
+      "id": "gold-reveal",
+      "custom_title_and_glyph": true,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "duration": 2.533333,
+      "decode": "pass",
+      "sha256": "5ba501ed1072ec78d58fb5305cf2b0ca43d025647c440772f42e4965bfd07a93"
+    }
+  ],
+  "limitations": [
+    "Only macOS tested",
+    "No audio",
+    "Preview checks do not establish visual equivalence to references",
+    "Only two public example exports tested end-to-end in this release"
+  ]
+}

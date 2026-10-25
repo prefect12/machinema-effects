@@ -1,0 +1,51 @@
+{
+  "duration": 14.8,
+  "reference": {
+    "video": "BV1w14y1h7MQ",
+    "event": "E022",
+    "sourceStart": 239.8,
+    "sourceEnd": 254.6
+  },
+  "labels": [
+    "选段",
+    "拆解",
+    "复刻",
+    "入库"
+  ],
+  "caption": "从片段到镜头，再回到原片核对",
+  "timing": {
+    "fadeIn": 0.3333333,
+    "arrows": [
+      2.3666667,
+      3.6333333,
+      6.6666667,
+      8.8
+    ],
+    "nodes": [
+      0,
+      2.6,
+      4,
+      7
+    ],
+    "rings": 10.2333333,
+    "hostOut": 14.2,
+    "hostGone": 14.5
+  },
+  "status": "fidelity_test_not_approved",
+  "data_note": "制作流程文案替换；紫色向下箭头保留原片图形外观，不代表经济变量变化。",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  }
+}

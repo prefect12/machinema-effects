@@ -1,0 +1,17 @@
+[
+  {
+    "id": "team",
+    "name": "机器马创作团队",
+    "file": "presets/team.json"
+  },
+  {
+    "id": "commerce",
+    "name": "本期主推商品",
+    "file": "presets/commerce.json"
+  },
+  {
+    "id": "astronomy",
+    "name": "行星观察计划",
+    "file": "presets/astronomy.json"
+  }
+]

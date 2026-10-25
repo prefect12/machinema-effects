@@ -1,0 +1,88 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "status": "fidelity_test_not_approved",
+  "seed": 7193,
+  "data_note": "动作研究的示例参数，不是生产统计或经济数据",
+  "headers": [
+    "制作模块",
+    "渲染采样",
+    "镜头"
+  ],
+  "units": [
+    "",
+    "（示例）",
+    "（个）"
+  ],
+  "rows": [
+    {
+      "label": "构图层",
+      "english": "Composition",
+      "value": "135,321",
+      "extra": "7"
+    },
+    {
+      "label": "光影层",
+      "english": "Lighting",
+      "value": "106,098",
+      "extra": "9"
+    },
+    {
+      "label": "表格层",
+      "english": "Table motion",
+      "value": "103,500",
+      "extra": "5"
+    },
+    {
+      "label": "材质层",
+      "english": "Materials",
+      "value": "90,434",
+      "extra": "6"
+    },
+    {
+      "label": "粒子层",
+      "english": "Particles",
+      "value": "89,370",
+      "extra": "8"
+    },
+    {
+      "label": "摄影层",
+      "english": "Camera",
+      "value": "86,601",
+      "extra": "12"
+    },
+    {
+      "label": "合成层",
+      "english": "Compositing",
+      "value": "85,787",
+      "extra": "4"
+    },
+    {
+      "label": "声音层",
+      "english": "Sound design",
+      "value": "73,568",
+      "extra": "3"
+    }
+  ],
+  "variant": "ireland",
+  "duration": 5.433333333333334,
+  "reference": {
+    "video": "BV1xU5bzVEjV",
+    "event": "E057",
+    "sourceStart": 1203.2333333333,
+    "sourceEnd": 1208.6666666667
+  },
+  "primary_row": 2,
+  "caption": "只抬起重点行，保留整张表的结构",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "anchorTime": 0
+  }
+}

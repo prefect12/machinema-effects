@@ -1,0 +1,40 @@
+{
+  "duration": 2.533333333333333,
+  "fps": 30,
+  "reference": {
+    "video": "BV1NY4y1j71V",
+    "event": "E075",
+    "sourceStart": 1067.6333333333334,
+    "sourceEnd": 1070.1666666666667
+  },
+  "status": "fidelity_test_not_approved",
+  "colors": [
+    "#efeed5",
+    "#b4442a",
+    "#c18b29"
+  ],
+  "ior": 1.52,
+  "thickness": 0.12,
+  "roughness": 0.012,
+  "focus": 1830,
+  "aperture": 0.018,
+  "caption": "用三维模型，让泡沫真正有厚度",
+  "captionStart": 1.5666666666666667,
+  "seed": 2881,
+  "data_note": "房屋气泡为视觉动作研究，不表示真实房价、数量或市场预测；窗口没有破裂动作。",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  }
+}

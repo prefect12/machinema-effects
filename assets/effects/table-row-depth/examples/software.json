@@ -1,0 +1,80 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "status": "fidelity_test_not_approved",
+  "seed": 7193,
+  "data_note": "全部数值为虚构演示数据，不是实际成绩、商品或系统测量",
+  "headers": [
+    "服务模块",
+    "延迟P95",
+    "请求数"
+  ],
+  "units": [
+    "",
+    "（毫秒）",
+    "（次/秒）"
+  ],
+  "rows": [
+    {
+      "label": "登录",
+      "english": "演示数据",
+      "value": "24",
+      "extra": "500"
+    },
+    {
+      "label": "搜索",
+      "english": "演示数据",
+      "value": "62",
+      "extra": "900"
+    },
+    {
+      "label": "推荐",
+      "english": "演示数据",
+      "value": "180",
+      "extra": "600"
+    },
+    {
+      "label": "支付",
+      "english": "演示数据",
+      "value": "45",
+      "extra": "120"
+    },
+    {
+      "label": "订单",
+      "english": "演示数据",
+      "value": "33",
+      "extra": "200"
+    },
+    {
+      "label": "消息",
+      "english": "演示数据",
+      "value": "22",
+      "extra": "800"
+    },
+    {
+      "label": "上传",
+      "english": "演示数据",
+      "value": "71",
+      "extra": "80"
+    },
+    {
+      "label": "缓存",
+      "english": "演示数据",
+      "value": "12",
+      "extra": "1800"
+    }
+  ],
+  "variant": "ireland",
+  "duration": 5.433333333333334,
+  "reference": {
+    "kind": "generic_use_case",
+    "derived_effect": "table-row-depth"
+  },
+  "primary_row": 2,
+  "caption": "性能报告：把瓶颈服务从整张表中抬出来",
+  "motionTiming": {
+    "start": 0.5333333,
+    "full": 0.8666667
+  }
+}

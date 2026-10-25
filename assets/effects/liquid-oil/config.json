@@ -1,0 +1,35 @@
+{
+  "duration": 4.266666666666667,
+  "fps": 30,
+  "reference": {
+    "video": "BV1HGta6aEf8",
+    "event": "E013",
+    "sourceStart": 212.26666666666668,
+    "sourceEnd": 216.53333333333333
+  },
+  "status": "fidelity_test_not_approved",
+  "title": "液态光影",
+  "eyebrow": "L I Q U I D   L I G H T",
+  "subtitle": "材质实验室",
+  "speed": 0.24,
+  "relief": 0.19,
+  "brightness": 0.27,
+  "foregroundOpacity": 0.16,
+  "seed": 4082,
+  "scope": "只重建油液连续形变、反射、长滴遮罩和字内纹理；不含原片普通主持圆窗。使用自有标题，不代表原作者工程。",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  }
+}

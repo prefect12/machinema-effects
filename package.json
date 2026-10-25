@@ -1,0 +1,12 @@
+{
+  "name": "machinema-effects",
+  "version": "0.1.0",
+  "private": true,
+  "description": "16 editable motion effects with a local workbench",
+  "scripts": {
+    "browser": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

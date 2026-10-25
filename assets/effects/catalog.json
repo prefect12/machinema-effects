@@ -1,0 +1,82 @@
+[
+  {
+    "id": "seat-rotation",
+    "name": "空间组织与对象交接",
+    "reference": "BV1uC4y1q79G 276–280秒 E022"
+  },
+  {
+    "id": "table-row-depth",
+    "name": "表格白行浮出",
+    "reference": "BV1xU5bzVEjV 1203.23–1208.67秒 E057"
+  },
+  {
+    "id": "table-row-perspective",
+    "name": "透视表格双层强调",
+    "reference": "BV1xU5bzVEjV 11.2667–18.9秒 E002"
+  },
+  {
+    "id": "paper-chart",
+    "name": "曲面图纸展开",
+    "reference": "BV1Ek4y177U8 727–731秒 E098"
+  },
+  {
+    "id": "document-focus",
+    "name": "弯曲纸页与原文焦点",
+    "reference": "BV1uC4y1q79G 305.633–315.4秒 E024"
+  },
+  {
+    "id": "coin-reveal",
+    "name": "金属币与三牌揭示",
+    "reference": "BV1N6gD65EMz 745.567–753.633秒 E063"
+  },
+  {
+    "id": "capsule-material",
+    "name": "透明胶囊",
+    "reference": ""
+  },
+  {
+    "id": "house-bubbles",
+    "name": "玻璃气泡群",
+    "reference": "BV1NY4y1j71V 1067.63–1070.17秒 E075"
+  },
+  {
+    "id": "mechanical-title",
+    "name": "悬浮机械零件",
+    "reference": "BV1xU5bzVEjV 1208.67–1210.67秒 E058"
+  },
+  {
+    "id": "liquid-oil",
+    "name": "黑色流体标题",
+    "reference": "BV1HGta6aEf8 212.267–216.533秒 E013"
+  },
+  {
+    "id": "iridescent-title",
+    "name": "虹彩金属标题",
+    "reference": "BV1pZ4y1z7k4 1295–1298秒 E097"
+  },
+  {
+    "id": "gold-reveal",
+    "name": "金色答案揭晓",
+    "reference": "BV1bb421H7VF 1728.5–1731.03秒 E099"
+  },
+  {
+    "id": "frost-title",
+    "name": "冰霜冷暖转换",
+    "reference": "BV1uC4y1q79G 1150–1153.3秒 E082"
+  },
+  {
+    "id": "particle-dissolve",
+    "name": "粒子消散",
+    "reference": "BV1uC4y1q79G 108–110.6秒 E010"
+  },
+  {
+    "id": "map-routes",
+    "name": "地形地图与路线",
+    "reference": "BV1HGta6aEf8 337.067–348.933秒 E022"
+  },
+  {
+    "id": "cycle-vortex",
+    "name": "闭环粒子涡流",
+    "reference": "BV1w14y1h7MQ 239.8–254.6秒 E022"
+  }
+]

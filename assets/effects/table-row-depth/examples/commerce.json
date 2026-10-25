@@ -1,0 +1,80 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "status": "fidelity_test_not_approved",
+  "seed": 7193,
+  "data_note": "全部数值为虚构演示数据，不是实际成绩、商品或系统测量",
+  "headers": [
+    "产品方案",
+    "价格",
+    "续航"
+  ],
+  "units": [
+    "",
+    "（元）",
+    "（小时）"
+  ],
+  "rows": [
+    {
+      "label": "轻便款",
+      "english": "演示数据",
+      "value": "299",
+      "extra": "12"
+    },
+    {
+      "label": "均衡款",
+      "english": "演示数据",
+      "value": "399",
+      "extra": "18"
+    },
+    {
+      "label": "长续航",
+      "english": "演示数据",
+      "value": "499",
+      "extra": "32"
+    },
+    {
+      "label": "运动款",
+      "english": "演示数据",
+      "value": "599",
+      "extra": "20"
+    },
+    {
+      "label": "旗舰款",
+      "english": "演示数据",
+      "value": "799",
+      "extra": "28"
+    },
+    {
+      "label": "办公款",
+      "english": "演示数据",
+      "value": "349",
+      "extra": "24"
+    },
+    {
+      "label": "旅行款",
+      "english": "演示数据",
+      "value": "449",
+      "extra": "30"
+    },
+    {
+      "label": "入门款",
+      "english": "演示数据",
+      "value": "199",
+      "extra": "8"
+    }
+  ],
+  "variant": "ireland",
+  "duration": 5.433333333333334,
+  "reference": {
+    "kind": "generic_use_case",
+    "derived_effect": "table-row-depth"
+  },
+  "primary_row": 2,
+  "caption": "产品比较：突出长续航，同时保留价格参照",
+  "motionTiming": {
+    "start": 0.5333333,
+    "full": 0.8666667
+  }
+}

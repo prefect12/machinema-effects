@@ -1,0 +1,35 @@
+{
+  "duration": 3,
+  "reference": {
+    "video": "BV1pZ4y1z7k4",
+    "sourceStart": 1295,
+    "sourceEnd": 1298,
+    "event": "E097"
+  },
+  "title": "MOTION MATERIALS",
+  "subtitle": "虹彩金属与折射",
+  "caption": "背景有金属褶皱，标题保持清晰",
+  "timing": {
+    "hostOut": 0.667,
+    "titleIn": 0.733,
+    "titleFull": 1.267,
+    "subtitleIn": 1.567,
+    "subtitleFull": 1.867
+  },
+  "status": "fidelity_test_not_approved",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  }
+}

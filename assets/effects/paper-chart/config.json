@@ -1,0 +1,118 @@
+{
+  "duration": 4,
+  "reference": {
+    "video": "BV1Ek4y177U8",
+    "sourceStart": 727,
+    "sourceEnd": 731,
+    "event": "E098"
+  },
+  "title": "图表展开｜曲面、折痕与光影",
+  "subtitle": "PAPER UNFOLD · CONTINUOUS UV · REAL LIGHT",
+  "caption": "图表和纸面一起展开，光影跟着折痕走",
+  "unit": "示例指数",
+  "dataNote": "动作测试曲线 · 不作经济事实依据",
+  "values": [
+    64,
+    64,
+    62,
+    78,
+    72,
+    53,
+    56,
+    58,
+    75,
+    98,
+    93,
+    70,
+    54,
+    43,
+    58,
+    45,
+    50,
+    51,
+    57,
+    60,
+    87,
+    79,
+    84,
+    85,
+    83,
+    64,
+    58,
+    44,
+    41,
+    51,
+    43,
+    40,
+    37,
+    9,
+    13,
+    18
+  ],
+  "range": [
+    0,
+    100
+  ],
+  "xLabels": [
+    "起点",
+    "阶段 1",
+    "阶段 2",
+    "阶段 3",
+    "阶段 4",
+    "阶段 5",
+    "终点"
+  ],
+  "timing": {
+    "wipeStart": 0.633,
+    "wipeEnd": 1.2,
+    "paperIn": 1.133,
+    "paperCentered": 1.3,
+    "unfoldStart": 1.3,
+    "unfoldEnd": 1.667
+  },
+  "status": "fidelity_test_not_approved",
+  "annotations": [
+    {
+      "index": 9,
+      "label": "阶段峰值",
+      "value": "98",
+      "x": 550,
+      "y": 145,
+      "at": 1.72,
+      "color": "#694bc1"
+    },
+    {
+      "index": 20,
+      "label": "第二次高点",
+      "value": "87",
+      "x": 940,
+      "y": 280,
+      "at": 2.18,
+      "color": "#2b7f95"
+    },
+    {
+      "index": 33,
+      "label": "阶段低点",
+      "value": "9",
+      "x": 1050,
+      "y": 560,
+      "at": 2.66,
+      "color": "#b66a38"
+    }
+  ],
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  }
+}

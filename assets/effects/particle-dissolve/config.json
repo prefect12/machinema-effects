@@ -1,0 +1,46 @@
+{
+  "duration": 2.6,
+  "reference": {
+    "video": "BV1uC4y1q79G",
+    "event": "E010",
+    "sourceStart": 108,
+    "sourceEnd": 110.6
+  },
+  "cards": [
+    {
+      "title": "原始素材",
+      "subtitle": "Source assets",
+      "kind": "capitol",
+      "start": 0.5,
+      "x": 120,
+      "y": 80
+    },
+    {
+      "title": "完成镜头",
+      "subtitle": "Finished shot",
+      "kind": "fed",
+      "start": 1.1333333333,
+      "x": 1000,
+      "y": 80
+    }
+  ],
+  "caption": "图片和标题一起，沿同一条边界化成颗粒",
+  "particleStep": 1,
+  "status": "fidelity_test_not_approved",
+  "note": "独立重建的粒子化消散；图片素材可替换，不使用原作者工程或插件。",
+  "camera": {
+    "yaw": 0,
+    "pitch": 0,
+    "zoom": 1,
+    "roll": 0,
+    "panX": 0,
+    "panY": 0,
+    "animate": true,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  }
+}
