@@ -42,7 +42,7 @@ export async function createSeatScene(canvas,initial) {
       g.stroke();g.restore();}
     if(portrait){g.restore();g.strokeStyle=readable.portraitBorder;g.lineWidth=5;g.beginPath();g.arc(w/2,h/2,w*.48,0,7);g.stroke();}
   },512,512);}
-  function label(str,w,h,color='#f5f0ff',size=50){return plane(w,h,basic(texture((g,W,H)=>{g.font=`600 ${size*H/128}px "PingFang SC", sans-serif`;g.fillStyle=color;g.textAlign='center';g.textBaseline='middle';g.fillText(str,W/2,H/2,W-30)},1024,Math.round(1024*h/w))));}
+  function label(str,w,h,color='#f5f0ff',size=50){return plane(w,h,basic(texture((g,W,H)=>{g.font=`600 ${size*(readable.labelScale??1)*H/128}px "PingFang SC", sans-serif`;g.fillStyle=color;g.textAlign='center';g.textBaseline='middle';g.fillText(str,W/2,H/2,W-30)},1024,Math.round(1024*h/w))));}
   const panel=new T.Mesh(rounded(16.4,5.2,.2,.13),pbr(palette.board,{metalness:content?.25:.45}));panel.position.set(0,2.9,0);root.add(panel);
   const boardTexture=texture((g,w,h)=>{const a=g.createLinearGradient(0,0,w,h);a.addColorStop(0,palette.start);a.addColorStop(1,palette.end);g.fillStyle=a;g.fillRect(0,0,w,h);g.globalAlpha=content?0:.06;g.drawImage(architecture,880,202,815,480,0,90,w,h-90);g.globalAlpha=1;g.fillStyle=palette.inset||'#07182770';g.beginPath();g.roundRect(38,120,w-76,h-155,20);g.fill();g.fillStyle=palette.section||'#d5e5e313';g.fillRect(50,150,610,h-215);g.strokeStyle=palette.border||'#c38cc64d';g.lineWidth=2;g.beginPath();g.moveTo(35,101);g.lineTo(w-35,101);g.stroke()},2048,650);
   root.add(plane(16.3,5.1,new T.MeshBasicMaterial({map:boardTexture,toneMapped:false}),0,2.9,.17));

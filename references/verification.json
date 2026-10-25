@@ -168,5 +168,27 @@
     "camera_yaw": 10,
     "saved_json_matches": true,
     "playback_reached_end": true
+  },
+  "v0.1.1": {
+    "date": "2026-10-26",
+    "platform": "macOS",
+    "checks": {
+      "manual_drag_then_edit_endpoints_save_export": true,
+      "exported_camera_yaw_start_mid_end": [
+        8,
+        0,
+        -7.9982
+      ],
+      "browser_errors": [],
+      "clear_seat_scene_3840x2160_render": true,
+      "paper_dim_and_highlight_render": true,
+      "javascript_syntax": true,
+      "python_compile": true
+    },
+    "limits": [
+      "Linux/Windows not tested",
+      "Visual samples are not user acceptance",
+      "Earlier 16-effect baseline retained; this patch checks affected paths only"
+    ]
   }
 }

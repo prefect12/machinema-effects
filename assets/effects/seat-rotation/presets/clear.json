@@ -1,0 +1,344 @@
+{
+  "schema": "xiaolin-seat-scene/1",
+  "duration": 6,
+  "camera": {
+    "yaw": 6,
+    "pitch": 3,
+    "zoom": 1.1,
+    "animate": true,
+    "endYaw": -6,
+    "endPitch": 4,
+    "endZoom": 1.1,
+    "roll": 0,
+    "endRoll": 0,
+    "panY": 0,
+    "panX": 0,
+    "sway": {
+      "period": 8,
+      "yaw": 0,
+      "pitch": 0,
+      "roll": 0,
+      "zoom": 0
+    }
+  },
+  "layout": {
+    "depth": 0.7
+  },
+  "motion": {
+    "arc": 1.4,
+    "travel": 1,
+    "outDuration": 0.1,
+    "inDuration": 0.1,
+    "easing": "smooth"
+  },
+  "look": {
+    "glow": 0,
+    "rings": false,
+    "paths": true,
+    "portraitBrightness": 1,
+    "portraitMinimum": 1,
+    "portraitScale": 1.35,
+    "portraitBackground": "#fffef8",
+    "portraitBorder": "#6e887a",
+    "labelScale": 1.3
+  },
+  "text": {
+    "title": "创作团队 · 岗位交接",
+    "subtitle": "",
+    "lower": "当前任务",
+    "chair": "主讲"
+  },
+  "events": [
+    {
+      "slot": 0,
+      "start": 0.15,
+      "arrival": 0.38,
+      "from": 0,
+      "to": 3
+    },
+    {
+      "slot": 1,
+      "start": 0.6,
+      "arrival": 0.84,
+      "from": 1,
+      "to": 5
+    }
+  ],
+  "castPolicy": "cycle-costumes",
+  "content": {
+    "fixedCount": 2,
+    "seatCount": 3,
+    "columns": 6,
+    "spacing": 2.65,
+    "portraits": [
+      {
+        "label": "角色 1",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            0,
+            0,
+            290,
+            309
+          ]
+        }
+      },
+      {
+        "label": "角色 2",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            307,
+            0,
+            595,
+            309
+          ]
+        }
+      },
+      {
+        "label": "角色 3",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            598,
+            0,
+            888,
+            309
+          ]
+        }
+      },
+      {
+        "label": "角色 4",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            893,
+            0,
+            1183,
+            309
+          ]
+        }
+      },
+      {
+        "label": "角色 5",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            1185,
+            0,
+            1506,
+            309
+          ]
+        }
+      },
+      {
+        "label": "角色 6",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            1507,
+            0,
+            1774,
+            309
+          ]
+        }
+      },
+      {
+        "label": "角色 7",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            0,
+            313,
+            298,
+            602
+          ]
+        }
+      },
+      {
+        "label": "角色 8",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            307,
+            313,
+            590,
+            602
+          ]
+        }
+      },
+      {
+        "label": "角色 9",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            594,
+            313,
+            891,
+            602
+          ]
+        }
+      },
+      {
+        "label": "角色 10",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            894,
+            313,
+            1191,
+            602
+          ]
+        }
+      },
+      {
+        "label": "角色 11",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            1196,
+            313,
+            1482,
+            602
+          ]
+        }
+      },
+      {
+        "label": "角色 12",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            1487,
+            313,
+            1774,
+            602
+          ]
+        }
+      },
+      {
+        "label": "角色 13",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            0,
+            608,
+            287,
+            887
+          ]
+        }
+      },
+      {
+        "label": "角色 14",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            309,
+            608,
+            592,
+            887
+          ]
+        }
+      },
+      {
+        "label": "角色 15",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            598,
+            608,
+            888,
+            887
+          ]
+        }
+      },
+      {
+        "label": "角色 16",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            898,
+            604,
+            1191,
+            887
+          ]
+        }
+      },
+      {
+        "label": "角色 17",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            1201,
+            606,
+            1485,
+            887
+          ]
+        }
+      },
+      {
+        "label": "角色 18",
+        "image": {
+          "src": "./assets/xiaohei-costumes-v01.svg",
+          "rect": [
+            1494,
+            608,
+            1774,
+            887
+          ]
+        }
+      }
+    ],
+    "items": [
+      {
+        "label": "策划",
+        "icon": "book",
+        "color": "#a7e6db"
+      },
+      {
+        "label": "开发",
+        "icon": "code",
+        "color": "#a7e6db"
+      },
+      {
+        "label": "摄影",
+        "icon": "camera",
+        "color": "#a7e6db"
+      },
+      {
+        "label": "配音",
+        "icon": "mic",
+        "color": "#a7e6db"
+      },
+      {
+        "label": "测试",
+        "icon": "flask",
+        "color": "#a7e6db"
+      },
+      {
+        "label": "分析",
+        "icon": "chart",
+        "color": "#a7e6db"
+      }
+    ],
+    "palette": {
+      "board": "#d9dfd4",
+      "start": "#f4f0e6",
+      "end": "#eceee3",
+      "lower": "#59776a",
+      "accent": "#779488",
+      "ringA": "#7395a7",
+      "ringB": "#9bb2bd",
+      "background": "#f5f1e7",
+      "text": "#293e35",
+      "muted": "#58665d",
+      "inset": "#fffdf7",
+      "section": "#e4eadf",
+      "border": "#a6b6a7",
+      "icon": "#405d50"
+    },
+    "itemMotion": {
+      "bob": 0
+    },
+    "chairIndex": 6
+  }
+}

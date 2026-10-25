@@ -34,5 +34,10 @@
     "endRoll": 0,
     "endPanX": 0,
     "endPanY": 0
+  },
+  "paperLook": {
+    "dim": 0.83,
+    "highlight": "#ffffff",
+    "translation": "#ffffff"
   }
 }

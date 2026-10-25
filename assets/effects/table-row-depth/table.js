@@ -4,7 +4,13 @@ const C=await fetch('./config.json').then(r=>r.json());
 C.camera={yaw:0,pitch:0,zoom:1,roll:0,panX:0,panY:0,animate:true,anchorTime:0,...C.camera};
 MV.config({duration:C.duration,fps:C.fps,bg:'#101a21'});
 let lastTime=0;
-window.effectCamera={current:()=>({...structuredClone(C.camera),anchorTime:C.camera.animate?lastTime:C.camera.anchorTime,animate:false}),update:camera=>{C.camera=structuredClone(camera)}};
+function cameraAt(t){
+ const c=C.camera;if(!c.animate)return c;
+ const u=Math.max(0,Math.min(1,t/C.duration)),p=u*u*(3-2*u),r={...c};
+ for(const k of ['yaw','pitch','zoom','roll','panX','panY']){const a=c[k]??(k==='zoom'?1:0),b=c['end'+k[0].toUpperCase()+k.slice(1)]??a;r[k]=a+(b-a)*p;}
+ return r;
+}
+window.effectCamera={current:()=>({...structuredClone(cameraAt(lastTime)),anchorTime:C.camera.animate?lastTime:C.camera.anchorTime,animate:false}),update:camera=>{C.camera=structuredClone(camera)}};
 const W=1920,H=1080,TW=1000,TH=1240,RH=126,HEADER=156;
 const cv=(w,h)=>Object.assign(document.createElement('canvas'),{width:w,height:h});
 const clamp=v=>Math.min(1,Math.max(0,v)),smooth=v=>(v=clamp(v))*v*(3-2*v),mix=(a,b,t)=>a+(b-a)*t;
@@ -126,7 +132,7 @@ function character(t,g){
 function draw(t,g){
  background(t,g);character(t,g);
  lastTime=t;const S=state(t),M=homography(layout(C.camera.animate?t:C.camera.anchorTime)),pivot=M.point(TW/2,TH/2);
- const layer=(points,depth=0)=>projectLayer(points,C.camera,pivot,depth);
+ const layer=(points,depth=0)=>projectLayer(points,cameraAt(t),pivot,depth);
  base.set(layer(warp(M,0,0,TW,TH)));shade.set(layer(warp(M,0,0,TW,TH)),S.dim);
  const rowY=HEADER+C.primary_row*RH;
  primary.set(layer(warp(M,-150,rowY-150,1300,420,1.14,C.variant==='ireland'?-15:12),90*S.primary),S.primary);
@@ -137,5 +143,5 @@ function draw(t,g){
  g.save();g.translate(960,966);g.transform(1,0,-.09,1,0,0);g.font='700 52px "PingFang SC"';g.textAlign='center';g.strokeStyle='#0a1118';g.lineWidth=5;g.lineJoin='round';g.strokeText(C.caption,0,0,1650);g.fillStyle='#fff';g.fillText(C.caption,0,0,1650);g.restore();
  g.fillStyle='#cbd2d0';g.font='18px "PingFang SC"';g.fillText('动作研究 / 示例参数',24,1048);
 }
-window.tableDebug={layout,state,config:C};
+window.tableDebug={layout,state,cameraAt,config:C};
 MV.scene('table-depth',0,C.duration,({ctx,t})=>draw(t,ctx));MV.start();

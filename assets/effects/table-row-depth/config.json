@@ -83,6 +83,16 @@
     "panX": 0,
     "panY": 0,
     "animate": true,
-    "anchorTime": 0
+    "anchorTime": 0,
+    "endYaw": 0,
+    "endPitch": 0,
+    "endZoom": 1,
+    "endRoll": 0,
+    "endPanX": 0,
+    "endPanY": 0
+  },
+  "motionTiming": {
+    "start": 0.5333333,
+    "full": 0.8666667
   }
 }

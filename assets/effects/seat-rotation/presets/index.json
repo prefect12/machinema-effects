@@ -13,5 +13,10 @@
     "id": "astronomy",
     "name": "行星观察计划",
     "file": "presets/astronomy.json"
+  },
+  {
+    "id": "clear",
+    "name": "米白清晰版",
+    "file": "presets/clear.json"
   }
 ]

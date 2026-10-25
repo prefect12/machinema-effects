@@ -1,6 +1,6 @@
 {
   "name": "machinema-effects",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "16 editable motion effects with a local workbench",
   "scripts": {

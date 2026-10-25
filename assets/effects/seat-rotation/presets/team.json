@@ -33,13 +33,14 @@
   },
   "look": {
     "glow": 0.26,
-    "rings": true,
+    "rings": false,
     "paths": false,
     "portraitBrightness": 1,
     "portraitMinimum": 1,
     "portraitScale": 1.12,
     "portraitBackground": "#ffffff",
-    "portraitBorder": "#7499b1"
+    "portraitBorder": "#7499b1",
+    "labelScale": 1
   },
   "text": {
     "title": "机器马创作团队",
